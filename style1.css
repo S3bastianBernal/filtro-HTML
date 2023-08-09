@@ -74,7 +74,6 @@ body{
 .contenedor1 {
     display: grid;
     grid-template-rows: auto 1fr; /* Una fila para el top-grid y una fila para los bottom-grids */
-    min-height: 100vh;
 }
 
 .gridsolo {
@@ -93,12 +92,11 @@ body{
 .gridc {
     background-color: #fff;
     padding: 10px;
-    text-align: center;
-    align-items: center;
 }
 
 .pre{
     font-size: 200%;
+    text-align: center;
 }
 
 .contenedorbot {
@@ -110,7 +108,7 @@ body{
 .boton {
     display: inline-block;
     padding: 20px 60px;
-    background-color: #007bff;
+    background-color: #003cff;
     color: #fff;
     text-decoration: none;
     border-radius: 40px;
@@ -148,9 +146,9 @@ label, input[type="text"], input[type="date"] {
 }
 
 input[type="text"], input[type="date"] {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #868383;
+    border-radius: 40px;
     width: 100%;
     box-sizing: border-box;
 }
